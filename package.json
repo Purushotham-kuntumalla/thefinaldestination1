@@ -5,10 +5,11 @@
   "type": "module",
   "homepage": "https://Purushotham-kuntumalla.github.io/thefinaldestination1/",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

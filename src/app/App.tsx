@@ -1,6 +1,7 @@
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import {CourseSection} from './components/TopCoursesSection';   
+import {ServicesSection} from './components/ServicesSection';   
 import { CoursesSection } from './components/CoursesSection';
 import { WhyChooseSection } from './components/WhyChooseSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
@@ -13,11 +14,13 @@ export default function App() {
       <Navbar />
       <HeroSection />
       <CoursesSection />
+      <ServicesSection />
       <CourseSection />
       <WhyChooseSection />
       <TestimonialsSection />
       <CTASection />
       <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

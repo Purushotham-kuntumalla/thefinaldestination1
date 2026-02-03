@@ -2,6 +2,7 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import {CourseSection} from './components/TopCoursesSection';   
 import {ServicesSection} from './components/ServicesSection';   
+import {JobPlacementsSection} from './components/JobsSectioins';   
 import { CoursesSection } from './components/CoursesSection';
 import { WhyChooseSection } from './components/WhyChooseSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
@@ -15,6 +16,7 @@ export default function App() {
       <HeroSection />
       <CoursesSection />
       <ServicesSection />
+      <JobPlacementsSection />
       <CourseSection />
       <WhyChooseSection />
       <TestimonialsSection />

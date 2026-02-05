@@ -82,7 +82,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 mb-8 border border-white/20"
         >
           <Sparkles size={16} className="text-yellow-300" />
-          <span className="text-sm">Trusted by 10,000+ Students Worldwide</span>
+          <span className="text-sm">Trusted by 1,000+ Students Worldwide</span>
         </motion.div>
 
         <motion.h1
@@ -108,7 +108,7 @@ export function HeroSection() {
         >
           Expert coaching for IELTS, OET, PTE, TOEFL, NCLEX, DHA & German Language.
           <br />
-          15+ years of experience helping professionals achieve their dreams.
+          4+ years of experience helping professionals achieve their dreams.
         </motion.p>
 
         <motion.div
@@ -160,13 +160,13 @@ export function HeroSection() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <motion.button
+  {/* <motion.button
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
     className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold text-lg border-2 border-white/30 hover:bg-white/20 transition-all"
   >
     Book Free Demo
-  </motion.button>
+  </motion.button> */}
 </motion.a>
 
         </motion.div>

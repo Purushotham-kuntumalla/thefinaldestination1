@@ -18,12 +18,12 @@ export function Footer() {
               transition={{ duration: 0.6 }}
             >
               <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">
-                thefinaldestination
+                TheFinalDestination
               </h3>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Your trusted partner in achieving global education and career goals through expert language and exam coaching.
               </p>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 {[
                   { icon: Facebook, href: '#' },
                   { icon: Instagram, href: '#' },
@@ -41,7 +41,7 @@ export function Footer() {
                     <Icon size={18} />
                   </motion.a>
                 ))}
-              </div>
+              </div> */}
             </motion.div>
           </div>
 
@@ -117,7 +117,7 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Call Us</p>
-                  <p className="text-white">+1 (555) 123-4567</p>
+                  <p className="text-white">+91 85199 28717</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -126,7 +126,7 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email Us</p>
-                  <p className="text-white">info@thefinaldestinationacademy.com</p>
+                  <p className="text-white">sajanvavilla1@gmail.com</p>
                 </div>
               </li>
             </ul>
@@ -145,9 +145,9 @@ export function Footer() {
           className="flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-500 text-sm">
-            © {currentYear} thefinaldestination Academy. All rights reserved.
+            © {currentYear} TheFinalDestination Academy. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <a href="#" className="text-gray-500 hover:text-purple-400 transition-colors">
               Privacy Policy
             </a>
@@ -157,7 +157,7 @@ export function Footer() {
             <a href="#" className="text-gray-500 hover:text-purple-400 transition-colors">
               Cookie Policy
             </a>
-          </div>
+          </div> */}
         </motion.div>
 
         {/* Decorative Element */}

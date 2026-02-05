@@ -6,19 +6,19 @@ import { Target, Users, Trophy, Clock } from 'lucide-react';
 const features = [
   {
     icon: Clock,
-    title: '15+ Years',
+    title: '4+ Years',
     description: 'of Excellence in Language & Exam Training',
     gradient: 'from-purple-500 to-pink-500',
   },
   {
     icon: Users,
-    title: '10,000+',
+    title: '1,000+',
     description: 'Students Successfully Trained',
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     icon: Trophy,
-    title: '95%',
+    title: '99%',
     description: 'Student Success Rate',
     gradient: 'from-green-500 to-emerald-500',
   },
@@ -99,7 +99,7 @@ export function WhyChooseSection() {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
-            Why thefinaldestination Academy
+            Why TheFinalDestination Academy
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Your Success is{' '}
@@ -177,7 +177,7 @@ export function WhyChooseSection() {
                 },
                 {
                   title: 'Flexible Learning',
-                  description: 'Online and offline classes designed to fit your schedule',
+                  description: 'Online classes designed to fit your schedule',
                 },
                 {
                   title: 'Comprehensive Materials',
@@ -244,7 +244,7 @@ export function WhyChooseSection() {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">
-                    <AnimatedCounter end={95} inView={isInView} />%
+                    <AnimatedCounter end={99} inView={isInView} />%
                   </div>
                   <div className="text-sm text-gray-600">Success Rate</div>
                 </div>

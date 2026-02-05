@@ -16,8 +16,8 @@ export default function App() {
       <HeroSection />
       <CoursesSection />
       <ServicesSection />
-      <JobPlacementsSection />
       <CourseSection />
+       <JobPlacementsSection />
       <WhyChooseSection />
       <TestimonialsSection />
       <CTASection />

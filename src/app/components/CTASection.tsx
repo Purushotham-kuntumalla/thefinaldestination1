@@ -83,7 +83,7 @@ export function CTASection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Join thefinaldestination Academy today and take the first step towards studying or working abroad.
+            Join TheFinalDestination Academy today and take the first step towards studying or working abroad.
             <br />
             Book your free demo class now!
           </motion.p>
@@ -107,13 +107,13 @@ export function CTASection() {
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </motion.button>
 
-            <motion.button
+            {/* <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-10 py-5 bg-white/10 backdrop-blur-sm text-white rounded-full font-bold text-lg border-2 border-white/30 hover:bg-white/20 transition-all"
             >
               Book Free Demo
-            </motion.button>
+            </motion.button> */}
           </motion.div>
 
           {/* Trust Indicators */}

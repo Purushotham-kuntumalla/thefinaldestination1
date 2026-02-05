@@ -5,17 +5,18 @@ import { BookOpen, Stethoscope, Globe, GraduationCap, FileText, Award, Languages
 
 const courses = [
   {
-    name: 'IELTS',
-    description: 'International English Language Testing System for study & immigration',
-    icon: BookOpen,
-    gradient: 'from-purple-500 to-pink-500',
-  },
-  {
     name: 'OET',
     description: 'Occupational English Test for healthcare professionals',
     icon: Stethoscope,
     gradient: 'from-blue-500 to-cyan-500',
   },
+  {
+    name: 'IELTS',
+    description: 'International English Language Testing System for study & immigration',
+    icon: BookOpen,
+    gradient: 'from-purple-500 to-pink-500',
+  },
+  
   {
     name: 'PTE',
     description: 'Pearson Test of English for academic & migration purposes',
@@ -62,7 +63,7 @@ export function CoursesSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="inline-block px-4 py-2 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold mb-4">
+          <div className="inline-block px-4 py-2 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold mb-4 border-1 border-purple-900">
             Our Programs
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
@@ -89,7 +90,7 @@ export function CoursesSection() {
                 className="group relative"
               >
                 {/* Card */}
-                <div className="relative h-full p-8 bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden">
+                <div className="relative h-full p-8 bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-black-900 overflow-hidden">
                   {/* Gradient Background on Hover */}
                   <div className={`absolute inset-0 bg-gradient-to-br ${course.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`} />
                   
@@ -107,7 +108,7 @@ export function CoursesSection() {
                   </p>
 
                   {/* Learn More Link */}
-                  <motion.div
+                  {/* <motion.div
                     whileHover={{ x: 5 }}
                     className={`inline-flex items-center gap-2 font-semibold bg-gradient-to-r ${course.gradient} bg-clip-text text-transparent`}
                   >
@@ -128,7 +129,7 @@ export function CoursesSection() {
                         className={`bg-gradient-to-r ${course.gradient}`}
                       />
                     </svg>
-                  </motion.div>
+                  </motion.div> */}
 
                   {/* Glow Effect */}
                   <div className={`absolute -inset-1 bg-gradient-to-br ${course.gradient} opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300 -z-10`} />

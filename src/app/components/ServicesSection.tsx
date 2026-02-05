@@ -98,7 +98,7 @@ export function ServicesSection() {
                 whileHover={{ y: -6 }}
                 className="group relative"
               >
-                <div className="h-full p-8 rounded-3xl bg-white border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div className="h-full p-8 rounded-3xl bg-white border border-gray-100  hover:shadow-2xl transition-all duration-300 ">
 
                   {/* Icon */}
                   <div

@@ -100,7 +100,7 @@ export function CourseSection() {
               whileHover={{ y: -8 }}
               className="group relative"
             >
-              <div className="h-full rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
+              <div className="h-full rounded-3xl bg-white  hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200">
 
                 {/* Image */}
                 <div className="relative h-44 overflow-hidden">
@@ -134,7 +134,10 @@ export function CourseSection() {
                   <button
                     className={`w-full py-3 rounded-xl text-white font-semibold bg-gradient-to-r ${course.gradient} hover:opacity-90 transition-all`}
                   >
+                    <a href="https://wa.me/918519928717?text=Hi%20i%20need%20to%20book%20a%20free%20Demo" target="_blank"
+  rel="noopener noreferrer">
                     View Details
+                    </a>
                   </button>
                 </div>
               </div>
@@ -146,6 +149,14 @@ export function CourseSection() {
 
       </div>
       <div className="flex justify-center mt-16">
+                     <motion.a
+  href="https://wa.me/918519928717?text=Hi%20i%20need%20to%20book%20a%20free%20Demo"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+
+
+
       <motion.button
               whileHover={{
                 scale: 1.05,
@@ -154,12 +165,16 @@ export function CourseSection() {
               whileTap={{ scale: 0.95 }}
               className="group px-10 py-5 bg-gradient-to-l from-purple-600 to-blue-600 text-white items-center  rounded-full font-bold text-lg flex items-center gap-3 shadow-2xl hover:bg-gray-50 transition-all"
             >
+              
               View More Courses
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </motion.button>
+            </motion.a>
             </div>
     </section>
   );
 }
 
 export default CourseSection;
+
+

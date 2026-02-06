@@ -174,7 +174,7 @@ Land mark passport office</p>
             className="inline-block px-6 py-3 bg-gradient-to-r from-purple-600/10 to-blue-600/10 rounded-full border border-purple-600/20"
           >
             <p className="text-sm text-gray-400">
-              Made with <span className="text-red-500">❤</span> from Codexaa.in
+              Made with Codexaa.in
             </p>
           </motion.div>
         </div>

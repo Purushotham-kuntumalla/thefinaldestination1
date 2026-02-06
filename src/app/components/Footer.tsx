@@ -108,7 +108,11 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Visit Us</p>
-                  <p className="text-white">123 Education Street, Global City, GC 12345</p>
+                  <p className="text-white">House no 71
+Road no 2a
+Ameerpet 
+Besides metro station 
+Land mark passport office</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">

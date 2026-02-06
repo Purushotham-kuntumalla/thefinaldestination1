@@ -223,7 +223,7 @@ export function WhyChooseSection() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMHN0dWR5aW5nJTIwYWJyb2FkfGVufDF8fHx8MTc2ODI4MjgzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://lowerhuntermedical.com.au/wp-content/uploads/2023/09/importance-doctor-nurse-relationship.jpg"
                 alt="Students learning"
                 className="w-full h-full object-cover"
               />

@@ -345,9 +345,9 @@ export function HeroSection() {
           className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto"
         >
           {[
-            { value: '15+', label: 'Years Experience' },
-            { value: '10K+', label: 'Students Trained' },
-            { value: '95%', label: 'Success Rate' },
+            { value: '4+', label: 'Years Experience' },
+            { value: '1K+', label: 'Students Trained' },
+            { value: '99%', label: 'Success Rate' },
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

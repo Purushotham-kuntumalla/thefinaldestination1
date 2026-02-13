@@ -41,7 +41,8 @@ export function Navbar() {
         : 'text-white'
     }`}
   >
-             TheFinalDestination
+             
+             TheFinalTouchOETAcademy
   </span>
           </motion.div>
 

@@ -130,7 +130,7 @@ Land mark passport office</p>
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email Us</p>
-                  <p className="text-white">sajanvavilla1@gmail.com</p>
+                  <p className="text-white">thefinaltouchoetacademy@gmail.com</p>
                 </div>
               </li>
             </ul>

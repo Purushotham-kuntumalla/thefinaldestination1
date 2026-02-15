@@ -42,7 +42,7 @@ export function Navbar() {
     }`}
   >
              
-             TheFinalTouchOETAcademy
+             TFTOETAcademy
   </span>
           </motion.div>
 

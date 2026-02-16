@@ -99,7 +99,7 @@ export function WhyChooseSection() {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
-            Why TheFinalDestination Academy
+            Why thefinaltouchOETacademy
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Your Success is{' '}

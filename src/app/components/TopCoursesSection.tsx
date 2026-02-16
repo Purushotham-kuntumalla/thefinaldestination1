@@ -80,7 +80,7 @@ export function CourseSection() {
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
             Learn with{' '}
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              thefinaldestination Academy
+              thefinaltouchOETacademy
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

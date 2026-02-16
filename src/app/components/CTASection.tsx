@@ -83,7 +83,7 @@ export function CTASection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Join TheFinalDestination Academy today and take the first step towards studying or working abroad.
+            Join thefinaltouchOETacademy today and take the first step towards studying or working abroad.
             <br />
             Book your free demo class now!
           </motion.p>

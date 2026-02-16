@@ -1,5 +1,7 @@
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Youtube, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import logo from '../../assets/logo.png';
+
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,6 +11,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+
           {/* Brand Column */}
           <div>
             <motion.div
@@ -17,31 +20,21 @@ export function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">
-                TheFinalDestination
-              </h3>
+              {/* Logo + Brand */}
+              <div className="flex items-center gap-3 mb-4">
+                <img
+                  src={logo}
+                  alt="TheFinalDestination Logo"
+                  className="w-12 h-12 object-contain rounded-lg"
+                />
+                {/* <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                  TheFinalDestination
+                </h3> */}
+              </div>
+
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Your trusted partner in achieving global education and career goals through expert language and exam coaching.
               </p>
-              {/* <div className="flex gap-3">
-                {[
-                  { icon: Facebook, href: '#' },
-                  { icon: Instagram, href: '#' },
-                  { icon: Linkedin, href: '#' },
-                  { icon: Youtube, href: '#' },
-                  { icon: Twitter, href: '#' },
-                ].map(({ icon: Icon, href }, index) => (
-                  <motion.a
-                    key={index}
-                    href={href}
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="w-10 h-10 rounded-full bg-gray-800 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 flex items-center justify-center transition-all"
-                  >
-                    <Icon size={18} />
-                  </motion.a>
-                ))}
-              </div> */}
             </motion.div>
           </div>
 
@@ -78,7 +71,15 @@ export function Footer() {
           >
             <h4 className="text-white font-bold text-lg mb-4">Our Courses</h4>
             <ul className="space-y-3">
-              {['IELTS Coaching', 'OET Preparation', 'PTE Training', 'TOEFL Classes', 'NCLEX Coaching', 'DHA Exam Prep', 'German Language'].map((course) => (
+              {[
+                'IELTS Coaching',
+                'OET Preparation',
+                'PTE Training',
+                'TOEFL Classes',
+                'NCLEX Coaching',
+                'DHA Exam Prep',
+                'German Language'
+              ].map((course) => (
                 <li key={course}>
                   <a
                     href="#courses"
@@ -108,13 +109,12 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Visit Us</p>
-                  <p className="text-white">House no 71
-Road no 2a
-Ameerpet 
-Besides metro station 
-Land mark passport office</p>
+                  <p className="text-white">
+                    Hyderabad, Telangana
+                  </p>
                 </div>
               </li>
+
               <li className="flex items-start gap-3">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Phone size={18} />
@@ -124,13 +124,16 @@ Land mark passport office</p>
                   <p className="text-white">+91 85199 28717</p>
                 </div>
               </li>
+
               <li className="flex items-start gap-3">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Mail size={18} />
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email Us</p>
-                  <p className="text-white">thefinaltouchoetacademy@gmail.com</p>
+                  <p className="text-white">
+                    thefinaltouchoetacademy@gmail.com
+                  </p>
                 </div>
               </li>
             </ul>
@@ -149,19 +152,8 @@ Land mark passport office</p>
           className="flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-500 text-sm">
-            © {currentYear} TheFinalDestination Academy. All rights reserved.
+            © {currentYear} thefinaltouchOETacademy. All rights reserved.
           </p>
-          {/* <div className="flex gap-6 text-sm">
-            <a href="#" className="text-gray-500 hover:text-purple-400 transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-500 hover:text-purple-400 transition-colors">
-              Terms of Service
-            </a>
-            <a href="#" className="text-gray-500 hover:text-purple-400 transition-colors">
-              Cookie Policy
-            </a>
-          </div> */}
         </motion.div>
 
         {/* Decorative Element */}

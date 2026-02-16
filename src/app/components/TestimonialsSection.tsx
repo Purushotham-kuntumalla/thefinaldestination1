@@ -9,7 +9,7 @@ const testimonials = [
     role: 'IELTS Student',
     image: 'https://images.unsplash.com/photo-1649589244330-09ca58e4fa64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2ODMxMjE0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     score: 'Band 8.5',
-    text: 'thefinaldestination Academy transformed my IELTS preparation. The personalized attention and expert guidance helped me achieve my target score on the first attempt. Now studying in Canada!',
+    text: 'thefinaltouchOETacademy transformed my IELTS preparation. The personalized attention and expert guidance helped me achieve my target score on the first attempt. Now studying in Canada!',
     gradient: 'from-purple-500 to-pink-500',
   },
   {
@@ -96,7 +96,7 @@ export function TestimonialsSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of successful students who achieved their dreams with thefinaldestination Academy
+            Join thousands of successful students who achieved their dreams with thefinaltouchOETacademy
           </p>
         </motion.div>
 

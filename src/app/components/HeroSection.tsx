@@ -289,7 +289,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 mb-8 border border-white/20"
         >
           <Sparkles size={16} className="text-yellow-300" />
-          <span className="text-sm">Trusted by 1,000+ Students Worldwide</span>
+          <span className="text-sm">Best Online OET Coaching in India</span>
         </motion.div>
 
         {/* Heading */}

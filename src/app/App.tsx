@@ -8,12 +8,13 @@ import { WhyChooseSection } from './components/WhyChooseSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
-
+import {AboutSection} from './components/Aboutus'
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <HeroSection />
+      <AboutSection />
       <CoursesSection />
       <ServicesSection />
       <CourseSection />
@@ -22,6 +23,7 @@ export default function App() {
       <TestimonialsSection />
       <CTASection />
       <Footer />
+      
       {/* <Footer /> */}
     </div>
   );
